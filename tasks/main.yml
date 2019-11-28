@@ -1,0 +1,14 @@
+---
+
+- name: Testing connectivity (whoami)
+  command: whoami
+  register: echo
+
+- debug: msg="{{ echo.stdout }}"
+
+- name: Testing connectivity (whoami) as root
+  command: whoami
+  register: echo
+  become: true
+
+- debug: msg="{{ echo.stdout }}"

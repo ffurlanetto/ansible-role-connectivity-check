@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Florian Furlanetto
+  description: This role do a connectivity check and validate the the playbook can execute commands as root (become)
+  company: Visium 360
+
+  license: See license.md
+
+  min_ansible_version: 2.x
+
+  galaxy_tags:
+    - visium360
+    - ffurlanetto
+    - connectivity
+
+dependencies: []
