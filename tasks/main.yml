@@ -3,6 +3,7 @@
 - name: Testing connectivity (whoami)
   command: whoami
   register: echo
+  changed_when: false
 
 - debug: msg="{{ echo.stdout }}"
 
@@ -10,5 +11,6 @@
   command: whoami
   register: echo
   become: true
+  changed_when: false
 
 - debug: msg="{{ echo.stdout }}"
