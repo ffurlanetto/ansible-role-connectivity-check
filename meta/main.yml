@@ -3,7 +3,7 @@
 galaxy_info:
   author: Florian Furlanetto
   description: This role do a connectivity check and validate the the playbook can execute commands as root (become)
-  company: Visium 360
+  company: ADNEOM
 
   license: See license.md
 
@@ -21,7 +21,6 @@ galaxy_info:
 
   galaxy_tags:
     - adneom
-    - visium360
     - ffurlanetto
     - connectivity
 
