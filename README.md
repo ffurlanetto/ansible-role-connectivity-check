@@ -25,15 +25,9 @@ Example Playbook
 Tests
 -----
 
-Test are made via Molecule and TestInfra. They will be automatically ran by the CI after every push. For a local run
-
-- Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-- Install [Vagrant](https://www.vagrantup.com/downloads.html)
-- Open a command prompt in the repository local folder and run `vagrant up`
-- Wait for it to be done starting & configuring & provionning, then `vagrant ssh`
-- Once connected in the VM, testing molecule is `cd /vagrant/ansible-role-YOUR_ROLE_NAME_HERE; molecule test`
+Test are made via Molecule and TestInfra. They will be automatically ran by the CI after every push.
 
 Author Information
 ------------------
 
-Florian Furlanetto - florian.furlanetto@visium360.com
+Florian Furlanetto - ffurlanetto@adneom.com

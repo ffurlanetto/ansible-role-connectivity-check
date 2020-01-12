@@ -20,4 +20,4 @@ See license.md
 Author Information
 ------------------
 
-Florian Furlanetto - florian.furlanetto@visium360.com
+Florian Furlanetto - ffurlanetto@adneom.com
